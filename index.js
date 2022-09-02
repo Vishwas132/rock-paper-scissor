@@ -16,7 +16,7 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-function game() {
+function playGame() {
     let scorePlayer = 0;
     let scoreComputer = 0;
     for (let i = 0; i < 5; i++) {
@@ -41,4 +41,4 @@ function game() {
     }
 }
 
-game();
+playGame();
